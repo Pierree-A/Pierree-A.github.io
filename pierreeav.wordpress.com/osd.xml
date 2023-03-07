@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<ShortName>pierreeav</ShortName>
+	<Description>Search Portfolio Pierre Averly - Website which shows my projects and my experiences</Description>
+	<Contact>help@wordpress.com</Contact>
+	<Url type="application/atom+xml" template="https://pierreeav.wordpress.com/?s={searchTerms}&amp;feed=atom" />
+	<Url type="rss+xml" template="https://pierreeav.wordpress.com/?s={searchTerms}&amp;feed=rss2" />
+	<Url type="text/html" template="https://pierreeav.wordpress.com/?s={searchTerms}" method="GET" />
+	<Url type="application/opensearchdescription+xml" rel="self" template="https://pierreeav.wordpress.com/osd.xml" />
+	<LongName>Portfolio Pierre Averly</LongName>
+	<Image height="16" width="16" type="image/vnd.microsoft.icon">https://pierreeav.files.wordpress.com/2022/05/cropped-profil-1.png?w=16</Image>
+	<Image height="64" width="64" type="image/png">https://pierreeav.files.wordpress.com/2022/05/cropped-profil-1.png?w=64</Image>
+	<Query role="example" searchTerms="photography" />
+	<Tags>blog</Tags>
+	<Developer>Automattic</Developer>
+	<SyndicationRight>open</SyndicationRight>
+	<AdultContent>false</AdultContent>
+	<Language>fr-FR</Language>
+	<OutputEncoding>UTF-8</OutputEncoding>
+	<InputEncoding>UTF-8</InputEncoding>
+	<moz:SearchForm>https://pierreeav.wordpress.com</moz:SearchForm>
+</OpenSearchDescription>

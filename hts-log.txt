@@ -1,0 +1,28 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 06 Mar 2023 13:48:52 at https://pierreeav.wordpress.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://pierreeav.wordpress.com/ -O1 "D:\My Web Sites\Pierre" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+13:49:06	Error: 	"Method Not Allowed" (405) at link https://pierreeav.wordpress.com/xmlrpc.php (from https://pierreeav.wordpress.com/)
+13:49:15	Error: 	"Not Found" (404) at link https://pierreeav.wordpress.com/GET (from https://pierreeav.wordpress.com/)
+13:49:39	Error: 	"Not Found" (404) at link https://pierreeav.wordpress.com/portfolio/GET (from https://pierreeav.wordpress.com/portfolio/)
+13:49:39	Error: 	"Not Found" (404) at link https://pierreeav.wordpress.com/resume/GET (from https://pierreeav.wordpress.com/resume/)
+13:49:39	Error: 	"Not Found" (404) at link https://pierreeav.wordpress.com/contact/GET (from https://pierreeav.wordpress.com/contact/)
+13:49:39	Error: 	"Not Found" (404) at link https://pierreeav.wordpress.com/portfolio/kali-linux/GET (from https://pierreeav.wordpress.com/portfolio/kali-linux/)
+13:49:39	Error: 	"Not Found" (404) at link https://pierreeav.wordpress.com/portfolio/easysave/GET (from https://pierreeav.wordpress.com/portfolio/easysave/)
+13:49:39	Error: 	"Not Found" (404) at link https://pierreeav.wordpress.com/portfolio/wordlist/GET (from https://pierreeav.wordpress.com/portfolio/wordlist/)
+13:49:39	Error: 	"Not Found" (404) at link https://pierreeav.wordpress.com/portfolio/sportdehors/GET (from https://pierreeav.wordpress.com/portfolio/sportdehors/)
+13:49:39	Error: 	"Not Found" (404) at link https://pierreeav.wordpress.com/portfolio/guestshell/GET (from https://pierreeav.wordpress.com/portfolio/guestshell/)
+13:49:39	Error: 	"Not Found" (404) at link https://pierreeav.wordpress.com/portfolio/gameinreims/GET (from https://pierreeav.wordpress.com/portfolio/gameinreims/)
+13:49:39	Error: 	"Not Found" (404) at link https://pierreeav.wordpress.com/portfolio/setting-up-a-honeypot-server/GET (from https://pierreeav.wordpress.com/portfolio/setting-up-a-honeypot-server/)
+13:49:39	Error: 	"Not Found" (404) at link https://pierreeav.wordpress.com/portfolio/setting-up-an-si/GET (from https://pierreeav.wordpress.com/portfolio/setting-up-an-si/)
+13:49:39	Error: 	"Not Found" (404) at link https://pierreeav.wordpress.com/portfolio/cisco-infrastructure/GET (from https://pierreeav.wordpress.com/portfolio/cisco-infrastructure/)
+13:49:41	Error: 	"Not Found" (404) at link https://pierreeav.wordpress.com/portfolio/ctf-et-challenges/GET (from https://pierreeav.wordpress.com/portfolio/ctf-et-challenges/)
+13:49:41	Error: 	"Not Found" (404) at link https://pierreeav.wordpress.com/portfolio/page/2/GET (from https://pierreeav.wordpress.com/portfolio/page/2/)
+13:49:41	Error: 	"Not Found" (404) at link https://pierreeav.wordpress.com/portfolio/others/GET (from https://pierreeav.wordpress.com/portfolio/others/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 49 seconds : 111 links scanned, 92 files written (5641372 bytes overall) [5152738 bytes received at 105157 bytes/sec], 2297490 bytes transferred using HTTP compression in 51 files, ratio 30%, 5.1 requests per connection
+(17 errors, 0 warnings, 0 messages)
