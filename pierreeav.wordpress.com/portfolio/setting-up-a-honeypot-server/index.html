@@ -263,38 +263,6 @@ body.custom-background { background-color: #f9f7f0; }
 
 
 <p></p>
-<div id="atatags-370373-6405e145cc638">
-		<script type="text/javascript">
-			__ATA.cmd.push(function() {
-				__ATA.initVideoSlot('atatags-370373-6405e145cc638', {
-					sectionId: '370373',
-					format: 'inread'
-				});
-			});
-		</script>
-	</div>			<div id="atatags-26942-6405e145cc69f"></div>
-			
-			<script>
-				__ATA.cmd.push(function() {
-					__ATA.initDynamicSlot({
-						id: 'atatags-26942-6405e145cc69f',
-						location: 120,
-						formFactor: '001',
-						label: {
-							text: 'Publicités',
-						},
-						creative: {
-							reportAd: {
-								text: 'Report this Ad',
-							},
-							privacySettings: {
-								text: 'Confidentialité',
-								onClick: function() { window.__tcfapi && window.__tcfapi( 'showUi' ); },
-							}
-						}
-					});
-				});
-			</script>			</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
 		<div class="entry-meta">
@@ -326,110 +294,7 @@ body.custom-background { background-color: #f9f7f0; }
 
 </div><!-- #page -->
 
-<!--  -->
 
-
-		<div style="display:none">
-	</div>
-		<!-- CCPA [start] -->
-		<script type="text/javascript">
-			( function () {
-
-				var setupPrivacy = function() {
-
-					// Minimal Mozilla Cookie library
-					// https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie/Simple_document.cookie_framework
-					var cookieLib = window.cookieLib = {getItem:function(e){return e&&decodeURIComponent(document.cookie.replace(new RegExp("(?:(?:^|.*;)\\s*"+encodeURIComponent(e).replace(/[\-\.\+\*]/g,"\\$&")+"\\s*\\=\\s*([^;]*).*$)|^.*$"),"$1"))||null},setItem:function(e,o,n,t,r,i){if(!e||/^(?:expires|max\-age|path|domain|secure)$/i.test(e))return!1;var c="";if(n)switch(n.constructor){case Number:c=n===1/0?"; expires=Fri, 31 Dec 9999 23:59:59 GMT":"; max-age="+n;break;case String:c="; expires="+n;break;case Date:c="; expires="+n.toUTCString()}return"rootDomain"!==r&&".rootDomain"!==r||(r=(".rootDomain"===r?".":"")+document.location.hostname.split(".").slice(-2).join(".")),document.cookie=encodeURIComponent(e)+"="+encodeURIComponent(o)+c+(r?"; domain="+r:"")+(t?"; path="+t:"")+(i?"; secure":""),!0}};
-
-					// Implement IAB USP API.
-					window.__uspapi = function( command, version, callback ) {
-
-						// Validate callback.
-						if ( typeof callback !== 'function' ) {
-							return;
-						}
-
-						// Validate the given command.
-						if ( command !== 'getUSPData' || version !== 1 ) {
-							callback( null, false );
-							return;
-						}
-
-						// Check for GPC. If set, override any stored cookie.
-						if ( navigator.globalPrivacyControl ) {
-							callback( { version: 1, uspString: '1YYN' }, true );
-							return;
-						}
-
-						// Check for cookie.
-						var consent = cookieLib.getItem( 'usprivacy' );
-
-						// Invalid cookie.
-						if ( null === consent ) {
-							callback( null, false );
-							return;
-						}
-
-						// Everything checks out. Fire the provided callback with the consent data.
-						callback( { version: 1, uspString: consent }, true );
-					};
-
-					// Initialization.
-					document.addEventListener( 'DOMContentLoaded', function() {
-
-						// Internal functions.
-						var setDefaultOptInCookie = function() {
-							var value = '1YNN';
-							var domain = '.wordpress.com' === location.hostname.slice( -14 ) ? '.rootDomain' : location.hostname;
-							cookieLib.setItem( 'usprivacy', value, 365 * 24 * 60 * 60, '../../index.html', domain );
-						};
-
-						var setDefaultOptOutCookie = function() {
-							var value = '1YYN';
-							var domain = '.wordpress.com' === location.hostname.slice( -14 ) ? '.rootDomain' : location.hostname;
-							cookieLib.setItem( 'usprivacy', value, 24 * 60 * 60, '../../index.html', domain );
-						};
-
-						var setDefaultNotApplicableCookie = function() {
-							var value = '1---';
-							var domain = '.wordpress.com' === location.hostname.slice( -14 ) ? '.rootDomain' : location.hostname;
-							cookieLib.setItem( 'usprivacy', value, 24 * 60 * 60, '../../index.html', domain );
-						};
-
-						var setCcpaAppliesCookie = function( applies ) {
-							var domain = '.wordpress.com' === location.hostname.slice( -14 ) ? '.rootDomain' : location.hostname;
-							cookieLib.setItem( 'ccpa_applies', applies, 24 * 60 * 60, '../../index.html', domain );
-						}
-
-						var maybeCallDoNotSellCallback = function() {
-							if ( 'function' === typeof window.doNotSellCallback ) {
-								return window.doNotSellCallback();
-							}
-
-							return false;
-						}
-
-						// Look for usprivacy cookie first.
-						var usprivacyCookie = cookieLib.getItem( 'usprivacy' );
-
-						// Found a usprivacy cookie.
-						if ( null !== usprivacyCookie ) {
-
-							// If the cookie indicates that CCPA does not apply, then bail.
-							if ( '1---' === usprivacyCookie ) {
-								return;
-							}
-
-							// CCPA applies, so call our callback to add Do Not Sell link to the page.
-							maybeCallDoNotSellCallback();
-
-							// We're all done, no more processing needed.
-							return;
-						}
-					} );
-				};			
-} )();
-		</script>
 		<script type="text/javascript">
 	window._tkq = window._tkq || [];
 	if ( Math.random() < 0.01 ) {
