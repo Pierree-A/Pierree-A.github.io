@@ -1,2 +1,0 @@
-function wpcom_custom_jumplist_reader(){window.external.msSiteModeCreateJumplist("Articles r\u00e9cents");window.external.msSiteModeAddJumpListItem("Mon profil","https://pierreeav.wordpress.com/2022/05/23/hello-world/","https://pierreeav.files.wordpress.com/2022/05/cropped-profil-1.png?w=16");}
-try{if(window.external && 'msIsSiteMode' in window.external){if (window.external.msIsSiteMode()){wpcom_custom_jumplist_reader();wpcom_sitemode_comment_notify();}}}catch(e){}
