@@ -137,8 +137,8 @@
 				<p class="site-description">Website which shows my projects and my experiences</p>
 				
 				<nav id="site-navigation" class="main-navigation" role="navigation">
-					<button class="menu-toggle" aria-controls="header-menu" aria-expanded="false" data-close-text="Fermer">Menu</button>
-					<div class="menu-menu-container"><ul id="header-menu" class="menu"><li id="menu-item-182" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-182"><a href="../index.html">About me</a></li>
+					<button id="buttonMenu" class="menu-toggle" aria-controls="header-menu" aria-expanded="false" data-close-text="Fermer">Menu</button>
+					<div id="container-menu" class="menu-menu-container"><ul id="header-menu" class="menu"><li id="menu-item-182" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-182"><a href="../index.html">About me</a></li>
 						<li id="menu-item-189" class="menu-item menu-item-type-post_type_archive menu-item-object-jetpack-portfolio current-menu-item menu-item-189"><a href="index.html" aria-current="page">Portfolio</a></li>
 						<li id="menu-item-183" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-183"><a href="../resume/index.html">Resume</a></li>
 						<li id="menu-item-184" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-184"><a href="../contact/index.html">Contact</a></li>
@@ -365,6 +365,14 @@
 																								</div><!-- #content -->
 																								
 																							</div><!-- #page -->
+
+																							<script>
+																								document.getElementById("buttonMenu").addEventListener("click", function() {
+																									//change opacity of the menu
+																									document.getElementById("container-menu").style.opacity = "1";
+																									document.getElementById("container-menu").style.maxHeight = "None";
+																								})
+																						</script>
 																							
 																							<script type="text/javascript">
 																								var infiniteScroll = {"settings":{"id":"infinite-wrap","ajaxurl":"https:\/\/pierreeav.wordpress.com\/?infinity=scrolling","type":"scroll","wrapper":false,"wrapper_class":"infinite-wrap","footer":"page","click_handle":"1","text":"Projets suivants","totop":"Retour en Haut","currentday":"25.05.22","order":"DESC","scripts":[],"styles":[],"google_analytics":false,"offset":1,"history":{"host":"pierreeav.wordpress.com","path":"\/portfolio\/page\/%d\/","use_trailing_slashes":true,"parameters":""},"query_args":{"post_type":"jetpack-portfolio","error":"","m":"","p":0,"post_parent":"","subpost":"","subpost_id":"","attachment":"","attachment_id":0,"name":"","pagename":"","page_id":0,"second":"","minute":"","hour":"","day":0,"monthnum":0,"year":0,"w":0,"category_name":"","tag":"","cat":"","tag_id":"","author":"","author_name":"","feed":"","tb":"","paged":0,"meta_key":"","meta_value":"","preview":"","s":"","sentence":"","title":"","fields":"","menu_order":"","embed":"","category__in":[],"category__not_in":[],"category__and":[],"post__in":[],"post__not_in":[],"post_name__in":[],"tag__in":[],"tag__not_in":[],"tag__and":[],"tag_slug__in":[],"tag_slug__and":[],"post_parent__in":[],"post_parent__not_in":[],"author__in":[],"author__not_in":[],"lazy_load_term_meta":false,"posts_per_page":10,"ignore_sticky_posts":false,"suppress_filters":false,"cache_results":true,"update_post_term_cache":true,"update_menu_item_cache":false,"update_post_meta_cache":true,"nopaging":false,"comments_per_page":"50","no_found_rows":false,"order":"DESC"},"query_before":"2023-03-06 13:48:57","last_post_date":"2022-05-25 09:20:47","body_class":"infinite-scroll neverending","loading_text":"Chargement d\u2019une nouvelle page","stats":"blog=207223062&v=wpcom&tz=1&user_id=0&subd=pierreeav&x_pagetype=infinite"}};
